@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometrics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Calculating forms</h1>
+    </header>
+    <aside class="container">
+        <div class="container__circle data"   >
+            <div class="inside circle" onclick="startCalc()" id="circle" data-form="circle"></div>
+            <p>Circle</p>
+        </div>
+        <div class="container__square data"   >
+            <div class="inside square" onclick="startCalc()" id="square" data-form="square"></div>
+            <p>Square</p>
+        </div>
+        <div class="container__triangle data"   >
+            <div class=" triangle" onclick="startCalc()" id="triangle" data-form="triangle"></div>
+            <p>Triangle</p> 
+        </div>
+        <div class="container__rectangle data"   >
+            <div class="rectangle" onclick="startCalc()" id="rectangle" data-form="rectangle"></div>
+            <p>Rectangle</p>     
+        </div>
+    </aside>
+    <section class="info">
+        <div id="figure" class="info__figure">
+
+        </div>
+        <div id="data" class="info__data">
+
+        </div>
+    </section> 
+
+    <script src="index.js"></script> 
+</body>
+</html>

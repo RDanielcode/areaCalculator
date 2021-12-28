@@ -1,0 +1,16 @@
+{
+  "name": "calculatorproject",
+  "version": "1.0.0",
+  "description": "Get the area of 4 figures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "saas",
+    "classes"
+  ],
+  "author": "Daniel Reyes",
+  "license": "ISC"
+}
