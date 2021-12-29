@@ -92,6 +92,7 @@ aside {
 .square {
   height: 40%;
   width: 40%;
+  max-width: 45px;
   margin: auto;
   border: 1px solid;
   background-color: #f5ecec;
@@ -203,6 +204,7 @@ aside {
 .element__square {
   height: 60%;
   width: 60%;
+  max-width: 215px;
   margin: auto;
   border: 1px solid;
   background-color: #f5ecec;
