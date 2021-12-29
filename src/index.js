@@ -129,7 +129,8 @@ class Calculate {
 
 }
 
-figureContainer.innerHTML= `<i><font color="white">choose any figure from the options</i>`
+figureContainer.innerHTML= `<i><font color="white">choose any figure from the options<br>
+(click inside the figure)</i>`
 
 const startCalc = function (){
     

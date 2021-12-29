@@ -42,6 +42,7 @@ aside {
   grid-column: 1/2;
   position: relative;
   color: #f5ecec;
+  max-width: 300px;
 }
 
 .container {
@@ -75,12 +76,13 @@ aside {
 .data p {
   color: #f5ecec;
   font-size: 12px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .circle {
   height: 40%;
   width: 40%;
+  max-width: 76px;
   margin: auto;
   border: 1px solid;
   border-radius: 50%;
@@ -160,7 +162,7 @@ aside {
 
 .info .info__figure p {
   color: #f5ecec;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
 .info .info__data {
@@ -191,6 +193,7 @@ aside {
 .element__circle {
   height: 60%;
   width: 60%;
+  max-width: 204px;
   margin: auto;
   border: 1px solid;
   border-radius: 50%;
@@ -242,5 +245,33 @@ button {
   height: 10%;
   max-width: 200px;
   border: 1px solid #ccc4c4;
+}
+
+@media (min-width: 550px) {
+  .circle {
+    height: 60%;
+  }
+  .element__circle {
+    height: 80%;
+  }
+  .triangle {
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+  }
+  .element__triangle {
+    border-right: 100px solid transparent;
+    border-top: 15px solid transparent;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid #f5ecec;
+  }
+}
+
+@media (min-width: 850px) {
+  .circle {
+    height: 70%;
+  }
+  .element__circle {
+    height: 80%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
