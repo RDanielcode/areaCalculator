@@ -36,6 +36,13 @@ class Calculate {
         const figureChosen = ev.target.dataset.form;
         console.log(figureChosen)
 
+        //const cards = document.createElement('card');
+        // cards.innerHTML = `
+        //     <div class="element__${figureChosen}" id="${figureChosen}2"></div>
+        //     <p>${figureChosen}</p>
+        //     `    
+        // figureContainer.appendChild(cards);
+
         figureContainer.innerHTML = `
             <div class="element__${figureChosen}" id="${figureChosen}2"></div>
             <p>${figureChosen}</p>

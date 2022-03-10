@@ -12,5 +12,9 @@
     "classes"
   ],
   "author": "Daniel Reyes",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://rdanielcode.github.io/areaCalculator",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
